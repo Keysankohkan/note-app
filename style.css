@@ -1,0 +1,86 @@
+body{
+    background-color: #a8dadc;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #1d3557;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: .8rem 1.5rem;
+    cursor: pointer;
+}
+
+.add:hover{
+    background-color: #264f8a;
+}
+
+.add i{
+    font-size: 20px;
+}
+
+.add:active{
+    transform: scale(0.9);
+}
+
+.note{
+    background-color: transparent;
+    margin: 30px 20px;
+    min-height: 400px;
+    width: 400px;
+    /* overflow-x: hidden; */
+}
+
+.note .tools{
+    background-color: #1d3557;
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem;
+}
+
+.note .tools button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note textarea{
+    outline: none;
+    font-size: 1.2rem;
+    border: none;
+    height: 300px;
+    width: 100%;
+    padding: 8px;
+    resize: none;
+    background-color: #eee;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main{
+    font-size: 1.2rem;
+    border: none;
+    height: 300px;
+    width: 100%;
+    padding: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    user-select: none;
+    overflow-y: scroll;
+}
+
+.hidden{
+    display: none;
+}
